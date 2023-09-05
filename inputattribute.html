@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form html</title>
+</head>
+
+<body>
+    <h1>HTML Registration Form</h1>
+    <br />
+    <form action="#">
+        <div>
+            <label for="username">Enter your name</label>
+            <input type="text" id="username" value="jaya" randomly disabled size="5" />
+            <input type="text" maxlength="10">
+            <br />
+            <br />
+            <label for="datemax">Enter a date before 1980-01-01:</label>
+            <input type="date" id="datemax" name="datemax" max="1979-12-31" />
+            <br />
+            <br />
+
+            <label for="datemin">Enter a date after 2000-01-01:</label>
+            <input type="date" id="datemin" name="datemin" min="2000-01-01" max="2023-01-01" />
+            <br />
+            <br />
+
+            <label for="Quantity">Quantity (between 1 ans 8):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" />
+            <br />
+            <br />
+
+            <label for="Files">Select files:</label>
+            <input type="file" id="files" name="files" multiple />
+            <br />
+            <br />
+
+            <input type="email" maxlength="10" placeholder="jayarya2122@gmail.com" value="Jaya"
+            required>
+
+           
+
+            <label for="fname">First name:</label>
+            <br />
+            <input type="text" id="fname" name="fname" autofocus autocomplete="off">
+            <br>
+
+            <input list="browser" name="browser">
+            <datalist id="browser">
+                <option value="Internet Explorera">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+    </form>
+
+</body>
+
+</html>
